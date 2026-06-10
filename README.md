@@ -24,10 +24,15 @@ The project aims to provide an affordable, scalable, and efficient alternative t
 
 The system consists of the following components:
 
-* **ESP8266 NodeMCU** – Main controller and communication module
-* **MQ135 Gas Sensor** – Air quality detection
-* **DHT11 Sensor** – Temperature and humidity measurement
-* **Arduino IoT Cloud** – Data storage and visualization platform
+MQ135 + DHT11
+        →
+ESP8266 NodeMCU
+        →
+Wi-Fi
+        →
+Arduino IoT Cloud
+        →
+Dashboard
 
 ### Workflow
 
@@ -49,6 +54,9 @@ The system consists of the following components:
 | Breadboard      | Circuit prototyping             |
 | Jumper Wires    | Hardware connections            |
 | USB Cable       | Power and programming           |
+
+## Hardware Setup
+![Hardware setup](Pictures/Hardware_setup.png)
 
 ---
 
